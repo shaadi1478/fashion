@@ -1,0 +1,93 @@
+ [
+      {
+        "id": "1",
+        "title": " Floral Print Dress",
+        "image": "https://i.ibb.co/n0PxHxf/Rectangle-20.png",
+        "short_description": "A stunning floral print dress perfect for any occasion.",
+        "long_description": "This beautiful dress features a vibrant floral print, a flattering fit-and-flare silhouette, and a comfortable stretch fabric. It's ideal for weddings, parties, or any special event.",
+        "rating": 4.5,
+        "brand": "FashionFusion"
+      },
+      {
+        "id": "2",
+        "title": " Maxi Dress",
+        "image": "https://i.ibb.co/r6qHjhF/Rectangle-21.png",
+        "short_description": "Elegant maxi dress for a glamorous look.",
+        "long_description": "This elegant maxi dress is perfect for formal occasions or evening events. With its flowing silhouette and delicate details, it's sure to turn heads wherever you go.",
+        "rating": 4.3,
+        "brand": "GlamourGoddess"
+      },
+      {
+        "id": "3",
+        "title": " Little Black Dress",
+        "image": "https://i.ibb.co/1Mdpymv/Rectangle-22.png",
+        "short_description": "Classic little black dress for timeless style.",
+        "long_description": "Every woman needs a little black dress in her wardrobe, and this one is a must-have. With its simple yet chic design, it's perfect for cocktails, dinner dates, or nights out on the town.",
+        "rating": 4.7,
+        "brand": "ChicCouture"
+      },
+      {
+        "id": "4",
+        "title": " Lace Cocktail Dress",
+        "image": "https://i.ibb.co/MZnpVBT/pexels-maxmishin-11026127.jpg",
+        "short_description": "Gorgeous lace cocktail dress for a romantic look.",
+        "long_description": "This stunning lace cocktail dress is perfect for date nights or special occasions. With its intricate lace detailing and figure-flattering silhouette, you'll feel elegant and feminine all night long.",
+        "rating": 4.6,
+        "brand": "LuxeLady"
+      },
+      {
+        "id": "5",
+        "title": " Wrap Dress",
+        "image": "https://i.ibb.co/r6qHjhF/Rectangle-21.png",
+        "short_description": "Versatile wrap dress for effortless style.",
+        "long_description": "This versatile wrap dress is a wardrobe staple that can be dressed up or down for any occasion. With its flattering wrap silhouette and soft jersey fabric, it's comfortable and chic for all-day wear.",
+        "rating": 4.4,
+        "brand": "CasualChic"
+      },
+      {
+        "id": "6",
+        "title": " Floral Print Dress",
+        "image": "https://i.ibb.co/g6BzdPY/pexels-thuongdaihua-2418233-5865829.jpg",
+        "short_description": "A stunning floral print dress perfect for any occasion.",
+        "long_description": "This beautiful dress features a vibrant floral print, a flattering fit-and-flare silhouette, and a comfortable stretch fabric. It's ideal for weddings, parties, or any special event.",
+        "rating": 4.5,
+        "brand": "FashionFusion"
+      },
+      {
+        "id": "7",
+        "title": " Maxi Dress",
+        "image": "https://i.ibb.co/p1ZSYcd/pexels-hson-12201823.jpg",
+        "short_description": "Elegant maxi dress for a glamorous look.",
+        "long_description": "This elegant maxi dress is perfect for formal occasions or evening events. With its flowing silhouette and delicate details, it's sure to turn heads wherever you go.",
+        "rating": 4.3,
+        "brand": "GlamourGoddess"
+      },
+      {
+        "id": "8",
+        "title": " Little Black Dress",
+        "image": "https://i.ibb.co/6PqSQ8t/pexels-rdne-8152153.jpg",
+        "short_description": "Classic little black dress for timeless style.",
+        "long_description": "Every woman needs a little black dress in her wardrobe, and this one is a must-have. With its simple yet chic design, it's perfect for cocktails, dinner dates, or nights out on the town.",
+        "rating": 4.7,
+        "brand": "ChicCouture"
+      },
+      {
+        "id": "9",
+        "title": "Lace Cocktail Dress",
+        "image": "https://i.ibb.co/MgyvQ0m/pexels-sound-on-3756862.jpg",
+        "short_description": "Gorgeous lace cocktail dress for a romantic look.",
+        "long_description": "This stunning lace cocktail dress is perfect for date nights or special occasions. With its intricate lace detailing and figure-flattering silhouette, you'll feel elegant and feminine all night long.",
+        "rating": 4.6,
+        "brand": "LuxeLady"
+      },
+      {
+        "id": "10",
+        "title": " Wrap Dress",
+        "image": "https://i.ibb.co/zxmwZ1K/pexels-nano-erdozain-120534369-13719074.jpg",
+        "short_description": "Versatile wrap dress for effortless style.",
+        "long_description": "This versatile wrap dress is a wardrobe staple that can be dressed up or down for any occasion. With its flattering wrap silhouette and soft jersey fabric, it's comfortable and chic for all-day wear.",
+        "rating": 4.4,
+        "brand": "CasualChic"
+      }
+    ]
+  
