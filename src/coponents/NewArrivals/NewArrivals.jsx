@@ -10,10 +10,10 @@ const NewArrivals = () => {
         .then(data => setCard(data))
     },[])
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-[1450px] mx-auto">
       <div>
-        <h1 className="text-4xl font-bold text-center mt-10">NEW ARRIVALS: {card.length}</h1>
-        <div className="grid grid-cols-5 gap-6 items-center justify-center mt-10">
+        <h1 className="text-4xl font-bold text-center mt-10">NEW ARRIVALS</h1>
+        <div className="grid md:grid-cols-5 gap-6 items-center justify-center mt-10">
             {
                 card.map(card => <NewArrival key={card.id} card={card}></NewArrival>)
             }

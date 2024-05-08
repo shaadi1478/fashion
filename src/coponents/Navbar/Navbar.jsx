@@ -4,10 +4,7 @@ const Navbar = () => {
   const navLinks = (
     <>
       <li>
-        <NavLink to="fashion">FASHION</NavLink>
-      </li>
-      <li>
-        <NavLink to="cataloguer">CATALOGUE</NavLink>
+        <NavLink to="jobs">FASHION</NavLink>
       </li>
       <li>
         <NavLink to="favourite">FAVOURITE</NavLink>
@@ -18,9 +15,9 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="max-w-[1300px] mx-auto">
-      <div className="navbar bg-base-100">
-        <div className="navbar-start">
+    <div className="max-w-[1450px] mx-auto">
+      <div className="md:navbar flex bg-base-100">
+        <div className="md:navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
               <svg
@@ -45,13 +42,13 @@ const Navbar = () => {
               {navLinks}
             </ul>
           </div>
-          <Link className="btn btn-ghost text-2xl font-bold">FASHION</Link>
+          <Link className="btn btn-ghost ml-6 md:text-2xl text-xl font-bold">FASHION</Link>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navLinks}</ul>
         </div>
-        <div>
-          <Link className="btn bg-slate-950 text-white">SIGN UP</Link>
+        <div className="md:justify-end justify-center mt-3 ml-12">
+          <Link to='/login' className="md:btn btn-sm bg-black text-white p-2 rounded-xl md:bg-slate-950 md:text-white">SIGN UP</Link>
         </div>
       </div>
     </div>

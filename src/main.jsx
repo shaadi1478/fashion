@@ -6,7 +6,10 @@ import Root from './coponents/Root/Root.jsx';
 import Home from './coponents/Home/Home.jsx';
 import ErrorPage from './coponents/ErrorPage/ErrorPage.jsx';
 import NewArrivals from './coponents/NewArrivals/NewArrivals.jsx';
-import NewArrival from './coponents/NewArrival/NewArrival.jsx';
+import Login from './coponents/Login/Login.jsx';
+import Register from './coponents/Register/Register.jsx';
+import NewArrivalDetails from './coponents/NewArrivalDetails/NewArrivalDetails.jsx';
+import Favourite from './coponents/Favourite/Favourite.jsx';
 
 const router = createBrowserRouter([
   {
@@ -19,12 +22,25 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: '/fashion',
+        path: '/jobs',
         element: <NewArrivals></NewArrivals>
       },
       {
-        path: '/fashion/:id',
-        element: <NewArrival></NewArrival>
+        path: '/job/:id',
+        element: <NewArrivalDetails></NewArrivalDetails>,
+        loader: () => fetch('../cardinfo.json')
+      },
+      {
+        path: '/login',
+        element: <Login></Login>
+      },
+      {
+        path: '/register',
+        element: <Register></Register>
+      },
+      {
+        path: '/favourite',
+        element: <Favourite></Favourite>
       }
     ],
   },

@@ -8,7 +8,7 @@ const Brand = () => {
     return (
         <div>
             <div className='bg-[#EBD96B] mt-10'>
-                <div className=" grid grid-cols-6 items-center py-4 max-w-7xl mx-auto">
+                <div className=" grid md:grid-cols-6 items-center py-4 max-w-7xl mx-auto">
                     <img src={brand} alt="" />
                     <img src={brand1} alt="" />
                     <img src={brand2} alt="" />
